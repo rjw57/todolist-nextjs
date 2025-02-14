@@ -33,4 +33,4 @@ repos:
         name: next.js linter
         language: node
         pass_filenames: false
-        entry: yarn lint:fix
+        entry: npm run lint:fix
