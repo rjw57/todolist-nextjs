@@ -1,7 +1,7 @@
 import { ComponentProps, ReactNode } from "react";
 import { Box, CssBaseline } from "@mui/material";
 
-import Footer from "../components/Footer";
+import DefaultFooter from "../components/DefaultFooter";
 import Header from "../components/Header";
 import { ThemeProvider } from "../styles";
 import GoogleAnalytics from "../components/GoogleAnalytics";
@@ -26,7 +26,7 @@ export default function DefaultLayout({
           <Box sx={{ flexGrow: 1 }}>
             <Header />
             <main>{children}</main>
-            <Footer />
+            <DefaultFooter />
           </Box>
         </ThemeProvider>
       </body>

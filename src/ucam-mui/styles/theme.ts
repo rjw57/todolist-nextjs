@@ -436,18 +436,6 @@ const theme = createTheme({
         },
       },
     },
-    MuiBottomNavigation: {
-      styleOverrides: {
-        root: {
-          backgroundColor: "#343B48",
-          minHeight: "192px",
-          padding: "0",
-          "@media (max-width: 1150px)": {
-            height: "384px",
-          },
-        },
-      },
-    },
     MuiGrid: {
       styleOverrides: {
         root: {
@@ -640,6 +628,18 @@ const theme = createTheme({
           "&.PaddedContent": {
             padding: "40px",
             marginTop: "24px",
+          },
+        },
+      },
+    },
+    UcamFooter: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#343B48",
+          minHeight: "192px",
+          padding: "0",
+          "@media (max-width: 1150px)": {
+            height: "384px",
           },
         },
       },
