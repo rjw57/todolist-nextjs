@@ -22,6 +22,7 @@ const eslintConfig = [
           tabWidth: 2,
           // To allow for long JSX properties.
           ignoreStrings: true,
+          ignoreComments: true,
         },
       ],
       indent: ["error", 2],
